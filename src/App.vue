@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Item from './components/Item.vue'
 </script>
 
 <template>
-  <header class="bg-white">
-    
-<div class="bg-white text-gray-600"> fff
+
+    <div className="fixed top-0 left-0 h-screen w-16 bg-slate-500 m-0 flex flex-col text-white shadow-lg">
+      ffff
+
+
+    </div>
+<div className="bg-white text-gray-600"> fff
 
 
 </div>
-    
-  </header>
+    <Item />
 
-  <main>
-    
-  </main>
+  
 </template>
 
 <style scoped>
